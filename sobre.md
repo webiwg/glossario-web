@@ -1,16 +1,20 @@
 ---
 layout: page
 ---
-# Sobre o História de eventos focados em web
+# Glossário de termos técnicos da Web em português
 
-Projeto dedicado a documentar história de eventos de tecnologia,
-principalmente comunitários, que tem relevância no Brasil e/ou a nível mundial.
+Lista de termos simples e compostos, de carater técnico, focados em tecnologias
+da Web, com descrição curta do que representa, seus sinônimos e equivalentes
+em Português.
 
 É uma ramificação do [História da Web em português](https://github.com/webiwg/historia-web-pt)
-e temos esperança que, além do valor histórico de saber o que já aconteceu,
-esta iniciativa ajude organizadores de eventos aprederem com os anteriores,
-possivelmente melhorando a integração da comunidade de desenvolvedores.
+e do [Textos sobre acessibilidade na Web em português](https://github.com/webiwg/acessibilidade-web-pt),
+projetos do WebIWG, Grupo de trabalho independente focado em tecnologias da
+Web, auto-organizado e sem fins lucrativos.
 
-O projeto é coordenado por [Ana Luiza Bastos](https://github.com/anabastos).
-O site publicado está em [http://eventos.webiwg.org](http://eventos.webiwg.org)
-e seu código fonte em [https://github.com/webiwg/eventos-web](https://github.com/webiwg/eventos-web).
+Este projeto ainda não tem a pessoa coordenadora geral definida. O site
+publicado está em http://glossario.pt.webiwg.org e seu código fonte em
+https://github.com/webiwg/glossario-web.
+
+O tópico de criação é [Glossário de termos técnicos da Web em
+português #22](https://github.com/webiwg/webiwg-issues/issues/22).
