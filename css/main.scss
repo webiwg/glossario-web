@@ -60,3 +60,45 @@ $on-laptop:        800px;
   list-style-type: none;
   padding-right: 20px;
 }
+/*
+.dl-meta dd {
+  padding-left: 2em;
+}
+//.dl-traducao > dt {
+//  size: 1.3em;
+//}
+.dl-traducao > dd {
+  padding-left: 2em;
+  padding-top: 1em;
+}
+.dl-traducao > dd:before {
+  content: "» "
+}
+.dl-traducao > dd li {
+  margin-left: 1em;
+}
+*/
+
+.glossario h3 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: solid #000 1px;
+}
+
+.glossario h4 {
+  padding-bottom: 0.3em;
+  border-bottom: dotted #ccc 1px;
+}
+
+.glossario dl {
+  padding-left: .3em;
+}
+
+.glossario dd {
+  padding-left: 1em;
+  padding-top: 0.5em;
+  font-weight: 700;
+}
+.glossario dt {
+  padding-top: 1em;
+}
