@@ -1,7 +1,7 @@
 # glossario-web
 
 Glossário de termos técnicos da Web em português.
-
+  
 
 Conversei com alguns membros do grupo de trabalho, e tivemos a ideia de criar um repositório exclusivo para ser um glossário de termos técnicos da Web em português.
 
