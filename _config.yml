@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Glossário de termos técnicos da Web em português
+#email: your-email@domain.com
+lang: pt
+description: >
+  Glossário de termos técnicos da Web em português
+  #principalmente comunitários, que tem relevância no Brasil e/ou a nível mundial.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://glossario.pt.webiwg.org " # url completa para o site. NÃO termine com barra
+twitter_username: WebIWG
+github_username:  WebIWG
+github_repository: webiwg/glossario-web
+
+# Usado por jekyll-seo-tag
+author:
+  twitter: webiwg
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

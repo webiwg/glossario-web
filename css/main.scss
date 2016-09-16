@@ -1,0 +1,62 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+@import "minima";
+
+/**
+* Fazer conteúdo não ser ignorado por máquinas (como leitores de tela)
+*
+* Não use 'visibility: hidden;', 'display:none;' ou 'width:0px;height:0px' pois será ignorado, mesmo por máquinas
+*
+* Q: Prejudica relevância em mecanismos de busca?
+* R: Não. Uso racional, para melhorar outline e experiencia de leitores de tela é bem visto e não penalizado.
+*
+* @see https://support.google.com/webmasters/answer/66353?hl=pt
+* @see http://webaim.org/techniques/css/invisiblecontent/
+*/
+.screen-reader-only {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.list-inline li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
