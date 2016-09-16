@@ -17,8 +17,9 @@ title: Glossário de termos técnicos da Web em português
 #email: your-email@domain.com
 lang: pt
 description: >
-  Glossário de termos técnicos da Web em português
-  #principalmente comunitários, que tem relevância no Brasil e/ou a nível mundial.
+  Lista de termos simples e compostos, de carater técnico, focados em tecnologias
+  da Web, com descrição curta do que representa, seus sinônimos e equivalentes
+  em Português.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://glossario.pt.webiwg.org " # url completa para o site. NÃO termine com barra
 twitter_username: WebIWG
